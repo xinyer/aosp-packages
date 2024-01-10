@@ -1,0 +1,2 @@
+export TW_ROOT=${pwd}/vendor/tw
+ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL=5
