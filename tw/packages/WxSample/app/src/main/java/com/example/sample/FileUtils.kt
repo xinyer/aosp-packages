@@ -10,6 +10,7 @@ object FileUtils {
         }
         val file = File(path)
         if (file.exists().not()) {
+            println("file not exists: $path")
             return null
         }
         return file.reader().readText()

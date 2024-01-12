@@ -1,0 +1,5 @@
+on property:sys.boot_completed=1
+    mkdir /data/system/verinfo/ 0777 system system
+    copy /vendor/build.prop /data/system/verinfo/build.prop
+    chown system:system /data/system/verinfo/build.prop
+    chmod 777 /data/system/verinfo/build.prop
